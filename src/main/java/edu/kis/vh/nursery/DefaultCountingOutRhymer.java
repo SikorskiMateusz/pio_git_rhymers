@@ -2,6 +2,9 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
+	public int getTotal() {
+		return total;
+	}
     private static final int MAX_TAB_SIZE = 12;
     private static final int EMPTY = -1;
 
